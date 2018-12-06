@@ -9,9 +9,13 @@ body {
     overflow: auto;
 }
 
-h1, h2, h3, h4 {
+h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
 
+}
+
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 header {
@@ -74,6 +78,8 @@ h2 {
     line-height: 20px;
     margin-bottom: 10px; 
     overflow: auto;
+    border-color: #dddddd;
+    border: 2px solid;
 }
 
 #me {
@@ -89,7 +95,7 @@ h2 {
 
 footer {
     background: #666666;
-    border-top: 5px solid #4aaaa5;
+    border-top: 8px solid #4aaaa5;
     overflow: auto;
     text-align: center;
     color: white;
@@ -111,7 +117,99 @@ textarea {
 }
 
 
+.portfolio {
+    height: 740px
+}
 
+.box-1 {
+    float: left;
+    position: relative;
+}
+
+.demo1{
+    background: #4aaaa5;
+    Color: White;
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+    font-weight: bold;
+}
+
+.box-2 {
+    float: left;
+    position: relative;
+    left: 25px;
+}
+
+.demo2{
+    background: #4aaaa5;
+    Color: White;
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+    font-weight: bold;
+}
+
+
+.box-3 {
+    float: left;
+    position: relative;
+    top: 225px;
+    right: 600px;
+}
+
+.demo3{
+    background: #4aaaa5;
+    Color: White;
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+    font-weight: bold;
+}
+
+.box-4 {
+    float: left;
+    position: relative;
+    bottom: 75px;
+    left: 325px  
+}
+
+.demo4{
+    background: #4aaaa5;
+    Color: White;
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+    font-weight: bold;
+}
+
+.box-5 {
+    float: left;
+    position: relative;
+    top: 150px;
+    right: 300px;  
+}
+
+.demo5{
+    background: #4aaaa5;
+    Color: White;
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+    font-weight: bold;
+}
+
+    
 
 
 
