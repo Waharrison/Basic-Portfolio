@@ -20,6 +20,7 @@ header {
     border-color: #cccccc;
     margin-bottom: 30px;
     margin: 0 auto;
+    padding-top: 0;
 }
 
 nav {
@@ -45,7 +46,7 @@ nav a {
 .wrap {
     width: 960px;
     margin: 0 auto;
-    background-color: white;
+    background-color: white; 
 }
 
 header h1 {
@@ -63,6 +64,7 @@ h2 {
     border-bottom: 2px solid #cccccc;
     color: #4aaaa5;
     margin: 0 auto;
+  
 }
 
 #aboutme{
@@ -92,6 +94,7 @@ footer {
     text-align: center;
     color: white;
     padding: 20px;
+    font-size: 14px;
 }
 
 input {
