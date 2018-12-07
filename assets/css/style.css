@@ -101,6 +101,7 @@ footer {
     color: white;
     padding: 20px;
     font-size: 14px;
+
 }
 
 input {
@@ -207,9 +208,7 @@ textarea {
     position: relative;
     bottom: 100px;
     font-weight: bold;
-}
-
-    
+}   
 
 
 
