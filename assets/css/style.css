@@ -136,6 +136,7 @@ textarea {
     position: relative;
     bottom: 100px;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .box-2 {
