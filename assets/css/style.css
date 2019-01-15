@@ -214,6 +214,14 @@ textarea {
 button:hover {
     color: red;
 }
+ 
+
+.hikeable {
+    float: left;
+    position: relative;
+    bottom: -200px;
+    left: -225px  
+}
 
 
 
