@@ -1,92 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-<html>
-
 <head>
-    <meta charset="UTF-8">
-    <title>William Harrison Portfolio</title>
-    <!-- <link rel="stylesheet" href="reset.css"> -->
-    <link rel="stylesheet" href="assets/css/style.css">
+  <title>Portfolio | William Harrison</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+  <style>
+   /* Remove the navbar's default margin-bottom and rounded borders */ 
+ .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+  
+  /* Add a gray background color and some padding to the footer */
+  footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+  }
+
+  .words{
+      font-size: 24px;
+     
+  }
+  </style>
 </head>
-
 <body>
-    <header>
-        <div class="wrap">
-            <h1>William Harrison</h1>
 
-            <nav>
-                <ul>
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <br>
-    <br>
-
-    <div class="wrap">
-        <section id="aboutme">
-            <h2>Portfolio</h2>
-
-            <br>
-
-            <div class="portfolio">
-
-                <div class="box-1">
-                    <img src="assets/images/box1.jpg" alt="Box1"  />
-                    <p class="demo1"><a href="https://waharrison.github.io/Psychic-Game/">The Psychic Game</a></p>
-                </div>
-
-                <div class="box-2">
-                    <img src="assets/images/box2.jpg" alt="Box2" />
-                    <p class="demo1"><a href="https://waharrison.github.io/unit-4-game/">Crystal Collector</a></p>
-                </div>
-
-
-                <div class="box-3">
-                    <img src="assets/images/box3.jpg" alt="Box3" />
-                    <p class="demo1"><a href="https://github.com/Waharrison/bamazon">Bamazon</a></p>
-                </div>
-
-                <div class="box-4">
-                    <img src="assets/images/box4.jpg" alt="Box4" />
-                    <p class="demo1"><a href="https://peaceful-waters-75848.herokuapp.com/">Friend Finder</a></p>
-                </div>
-
-                <div class="box-5">
-                    <img src="assets/images/box5.jpg" alt="Box5" />
-                    <p class="demo1"><a href="https://salty-shelf-44703.herokuapp.com/index">Burger App</a></p>
-                </div>
-                <div class="hikeable">
-                   <a href="https://mwh1717.github.io/outdoor-application/"><img src="assets/images/logo7.png" ></a>
-                </div>
-                <!-- <div class="box-6">
-                    <img src="assets/images/box2.jpg" alt="Box2" />
-                    <p class="demo1"><a href="https://github.com/Waharrison/bamazon">Bamazon</a></p>
-                </div> -->
-                <!-- <div class="box-5">
-                    <img src="assets/images/box5.jpg" alt="Box5" />
-                    <p class="demo1"><a href="https://waharrison.github.io/Train-Scheduler/">Train Scheduler</a></p>
-                </div> -->
-
-
-            </div>
-
-        </section>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html">William Harrison</a>
     </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>My Portfolio</h1>      
+    <p>Checkout some of my work</p>
+  </div>
+</div>
+<div class="container-fluid bg-3 text-center">    
+  <div class="row">
+    <div class="col-sm-3">
+      <p class="words"><a href="https://waharrison.github.io/Psychic-Game/">Psychic Game</p>
+      <img src="assets/images/newimage2.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
+    </div>
+    <div class="col-sm-3"> 
+      <p class="words"><a href="https://waharrison.github.io/unit-4-game/">Crystal Game</p>
+      <img src="assets/images/newimage3.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
+    </div>
+    <div class="col-sm-3"> 
+      <p class="words"><a href="https://waharrison.github.io/trivia-game/">Trivia Game</p>
+      <img src="assets/images/newimage4.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
+    </div>
+    <div class="col-sm-3">
+      <p class="words"><a href="https://waharrison.github.io/GifTastic/">GifTastic</p>
+      <img src="assets/images/newimage1.gif" class="img-responsive" style="width:100%" alt="Image"></a>
+    </div>
+  </div>
+</div><br>
+<hr>
+<div class="container-fluid bg-3 text-center">    
+  <div class="row">
+    <div class="col-sm-3">
+      <p class="words"><a href="https://waharrison.github.io/Train-Scheduler/">Train Scheduler</p>
+      <img src="assets/images/newimage5.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
+    </div>
+    <div class="col-sm-3"> 
+      <p class="words"><a href="https://mwh1717.github.io/outdoor-application/">Hikeable</p>
+      <img src="assets/images/logo7.png" class="img-responsive" style="width:100%" alt="Image"></a>
+    </div>
+    <div class="col-sm-3"> 
+      <p class="words"><a href="https://github.com/Waharrison/bamazon">Bamazon</p>
+      <img src="assets/images/newimage6.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
+    </div>
+    <div class="col-sm-3">
+      <p class="words"><a href="https://peaceful-waters-75848.herokuapp.com/">Friend Finder</p>
+      <img src="assets/images/newimage7.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
+    </div>
+  </div>
+</div><br>
+<hr><br>
+<div class="container-fluid bg-3 text-center">    
+    <div class="row">
+      <div class="col-sm-3">
+        <p class="words"><a href="https://salty-shelf-44703.herokuapp.com/index">Burger App</p>
+        <img src="assets/images/newimage8.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
+      </div>
+      <!-- <div class="col-sm-3"> 
+        <p class="words"><a href="https://mwh1717.github.io/outdoor-application/">Hikeable</p>
+        <img src="assets/images/logo7.png" class="img-responsive" style="width:100%" alt="Image"></a>
+      </div>
+      <div class="col-sm-3"> 
+        <p class="words"><a href="https://github.com/Waharrison/bamazon">Bamazon</p>
+        <img src="assets/images/newimage6.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
+      </div>
+      <div class="col-sm-3">
+        <p class="words"><a href="https://peaceful-waters-75848.herokuapp.com/">Friend Finder</p>
+        <img src="assets/images/newimage7.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
+      </div> -->
+    </div>
+  </div><br>
+  <hr>
 
-    <br>
-    <br>
+<footer class="container-fluid text-center">
+    Copyright &copy;
+</footer>
 
-    <div class="clearfix"></div>
-
-    <footer>
-        Copyright &copy;
-    </footer>
 </body>
-
-</html>
-
 </html>

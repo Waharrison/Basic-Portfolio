@@ -1,77 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<html>
 
 <head>
-    <meta charset="UTF-8">
-    <title>William Harrison Portfolio</title>
-    <!-- <link rel="stylesheet" href="reset.css"> -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <title>William Harrison</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+    <style>
+        /* Remove the navbar's default margin-bottom and rounded borders */ 
+ .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+  
+  /* Add a gray background color and some padding to the footer */
+  footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+  }
+
+  .words{
+      font-size: 24px;
+     
+  }
+  </style>
 </head>
 
 <body>
-    <header>
-        <div class="wrap">
-            <h1>William Harrison</h1>
 
-            <nav>
-                <ul>
-                    <li><a href="index.html">About</a></li>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">William Harrison</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html">About</a></li>
                     <li><a href="portfolio.html">Portfolio</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
-            </nav>
+            </div>
         </div>
-    </header>
-    <br>
-    <br>
-
-    <div class="wrap">
-        <section id="aboutme">
-            <h2>Contact Me</h2>
-
-            <form>
-
-                <label for="name">Name:</label>
-                <br>
-                <input type="text" name="name" id="name">
-
-                <br>
-                <br>
-
-                <label for="email">Email:</label>
-                <br>
-                <input type="text" name="email" id="email">
-
-                <br>
-                <br>
-
-
-                <label for="message">Message:</label>
-                <br>
-                <textarea rows="10" cols="50">Message Here</textarea>
-
-                <br>
-
-                <button type="submit">Submit Form</button>
-
-
-
-            </form>
-
-        </section>
+    </nav>
+    <div class="jumbotron">
+        <div class="container text-center">
+            <!-- <h1>William Harrison</h1> -->
+            <h1>Contact Me</h1>
+        </div>
     </div>
+    <div class="container-fluid bg-3">
+        <div class="row">
 
-    <br>
-    <br>
+            <div class="col-lg-2">
 
-    <div class="clearfix"></div>
+            </div>
+            <div class="col-lg-8">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="form-group">
+                            <label for="usr">Name:</label>
+                            <input type="text" class="form-control" id="usr">
+                        </div>
+                        <div class="form-group">
+                            <label for="pwd">Email:</label>
+                            <input type="Email" class="form-control" id="pwd">
+                        </div>
+                        <div class="form-group">
+                            <label for="comment">Message:</label>
+                            <textarea class="form-control" rows="5" id="comment"></textarea>
+                        </div>
+                        <button type="button" class="btn btn-primary">Submit</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2">
 
-    <footer>
+            </div>
+
+        </div>
+    </div>
+    <hr>
+    <hr>
+    <footer class="container-fluid text-center">
         Copyright &copy;
     </footer>
-</body>
 
-</html>
+</body>
 
 </html>
